@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Dolce Vita - Restaurante Italiano</title>
+    <style>
+        /* Estilos básicos */
+        body { font-family: 'Times New Roman', serif; margin: 0; color: #333; }
+        header, footer { background-color: #f0f0f0; padding: 20px; text-align: center; }
+        nav { background-color: #8B4513; color: white; padding: 10px; }
+        nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+        section { padding: 20px; }
+        h2 { color: #8B4513; }
+
+        /* Estilos extras */
+        .container { max-width: 960px; margin: 0 auto; padding: 0 20px; }
+        .highlight { background-image: url('imagem-fundo-restaurante.jpg'); background-size: cover; color: white; padding: 100px 0; text-align: center; }
+        .cta-button { background-color: #8B4513; color: white; padding: 10px 20px; border: none; border-radius: 5px; text-decoration: none; display: inline-block; margin-top: 10px; }
+        .menu-grid { display: flex; justify-content: space-around; flex-wrap: wrap; }
+        .menu-item { width: 300px; margin-bottom: 20px; text-align: center; border: 1px solid #ddd; padding: 15px; border-radius: 5px; }
+        .menu-item img { max-width: 100%; height: auto; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="Logo La Dolce Vita" width="150">
+            <h1>La Dolce Vita</h1>
+            <p>A verdadeira culinária italiana.</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <a href="#">Início</a>
+            <a href="#">Menu</a>
+            <a href="#">Reservas</a>
+            <a href="#">Contato</a>
+        </div>
+    </nav>
+
+    <section class="highlight">
+        <div class="container">
+            <h2>Viva a experiência La Dolce Vita.</h2>
+            <p>Saboreie a Itália em cada prato, com ingredientes frescos e receitas autênticas.</p>
+            <a href="#" class="cta-button">Faça sua reserva</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>Nosso Menu</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <img src="carbonara.png" alt="Pasta Carbonara">
+                    <h3>Pasta Carbonara</h3>
+                    <p>Clássica receita romana com guanciale, queijo pecorino e ovos.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="margherita-pizza.png" alt="Pizza Margherita">
+                    <h3>Pizza Margherita</h3>
+                    <p>A tradicional pizza napolitana com tomate, mozzarella e manjericão.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="tiramisu.png" alt="Tiramisu">
+                    <h3>Tiramisu</h3>
+                    <p>Deliciosa sobremesa italiana com café, mascarpone e cacau em pó.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 La Dolce Vita. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
